@@ -7,11 +7,11 @@ jobs:
     needs: job1
     runs-on: ubuntu-latest
     steps:
-      - name: StepA
+      - name: StepB
         run: echo "World"
 
   job1:
     runs-on: ubuntu-latest
     steps:
-      - name: StepB
+      - name: StepA
         run: echo "Hello"
