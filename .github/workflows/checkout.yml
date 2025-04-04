@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: List before checkout
         run: ls -l
-      - name: checkout
-        uses: action/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
       - name: List after checkout
         run: ls -l
