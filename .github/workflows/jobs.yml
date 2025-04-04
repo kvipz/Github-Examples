@@ -8,10 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: StepA
-        run: echo "Hello"
+        run: echo "World"
 
   job1:
     runs-on: ubuntu-latest
     steps:
       - name: StepB
-        run: echo "World"
+        run: echo "Hello"
